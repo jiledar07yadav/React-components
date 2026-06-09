@@ -4,7 +4,7 @@ const Setting = ({ data, setData }) => {
     setData((prevState) => ({ ...prevState, theme: e.target.name }));
   };
 
-  return (
+  return ( 
     <div>
       <div>
         <input

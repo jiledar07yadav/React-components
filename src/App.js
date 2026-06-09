@@ -7,5 +7,5 @@ export default function App() {
       <h1>Tab form</h1>
       <Form />
     </div>
-  );
+  ); 
 }

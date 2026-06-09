@@ -3,7 +3,7 @@ const Interests = ({ data, setData, error }) => {
   const handleDataChange = (e) => {
     const { checked, value } = e.target;
 
-    if (checked) {
+    if (checked) { 
       setData((prevData) => ({
         ...prevData,
         interests: [...prevData.interests, value],

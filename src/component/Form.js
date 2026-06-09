@@ -2,7 +2,7 @@ import User from "./User";
 import Interests from "./Interests";
 import Setting from "./Setting";
 import { useState } from "react";
-const Form = () => {
+const Form = () => { 
   const [data, setData] = useState({
     name: "",
     age: "",

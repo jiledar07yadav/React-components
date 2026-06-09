@@ -5,7 +5,7 @@ const User = ({ data, setData, error }) => {
       ...prevState,
       [item]: e.target.value,
     }));
-  };
+  }; 
   return (
     <>
       <div className="form-container">
